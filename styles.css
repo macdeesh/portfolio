@@ -266,12 +266,13 @@ footer {
     }
 
     .projects {
-        margin:0 0 0 calc(80px + var(--grid-margin));
+        margin:0 0 0 calc(100px + var(--grid-margin));
+        margin-top: 40px;
     }
 
     .col1 {
         white-space: nowrap;
-        width: 80px;
+        width: 100px;
     }
 
     .col2 {
@@ -293,7 +294,7 @@ footer {
     }
 
     .content .col2 {
-        margin: 0 0 0 calc(80px + var(--grid-margin));
+        margin: 0 0 0 calc(100px + var(--grid-margin));
     }
 
     .col3 {
@@ -301,7 +302,11 @@ footer {
     }
 
     footer {
-        margin: 0 0 0 calc(80px + var(--grid-margin));
+        margin: 0 0 0 calc(100px + var(--grid-margin));
+    }
+
+    footer li {
+        margin-bottom: 8px;
     }
 }
 
